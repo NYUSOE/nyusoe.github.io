@@ -82,7 +82,7 @@ body{
     box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-.headerBar ul li:hover{
+.headerBar #headerItems li:hover{
     color:#979797;
 }
 
@@ -113,3 +113,10 @@ footer #footerItems li{
   height:44px;
   width:44px;
 }
+
+.social:hover{
+  opacity:100%;
+  -webkit-filter: saturate(3);
+  filter: saturate(3);
+/*  visibility: hidden;
+*/}
