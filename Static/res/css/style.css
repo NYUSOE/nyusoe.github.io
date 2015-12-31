@@ -66,7 +66,7 @@ body{
   text-align:center;
 }
 
-.headerBar #headerItems li {
+.headerBar #headerItems li{
     display: inline;
     text-align:center;
     float: left;
@@ -86,7 +86,7 @@ body{
     color:#979797;
 }
 
-#headerItems li ~ #headerItems li{border-left: 1px solid #979797;}
+#navLink ~ #navLink{border-left: 1px solid #979797;}
 
 footer{
   position: absolute;
