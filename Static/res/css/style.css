@@ -35,6 +35,15 @@ a:hover, a:active { outline: none; }
 
 /**********************************************************************************/
 
+body{
+  height:100%;
+}
+
+#wrapper{
+  min-height:100vh;
+  position:relative;
+}
+
 .headerBar{
   width:100vw;
   background-color:#57068C;
@@ -47,7 +56,7 @@ a:hover, a:active { outline: none; }
   float: left;
 }
 
-.headerBar ul{
+.headerBar #headerItems{
   list-style-type: none;
   margin:auto;
   overflow: hidden;
@@ -57,7 +66,7 @@ a:hover, a:active { outline: none; }
   text-align:center;
 }
 
-.headerBar ul li {
+.headerBar #headerItems li {
     display: inline;
     text-align:center;
     float: left;
@@ -77,4 +86,30 @@ a:hover, a:active { outline: none; }
     color:#979797;
 }
 
-li~li{border-left: 1px solid #979797;}
+#headerItems li ~ #headerItems li{border-left: 1px solid #979797;}
+
+footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color:#57068C;
+  text-align: center;
+}
+footer #footerItems{
+  list-style-type: none;
+  margin: auto;
+}
+
+footer #footerItems li{
+  display: inline;
+  float: right;
+  margin: 0;
+  color: white;
+}
+
+.social{
+  height:44px;
+  width:44px;
+}
