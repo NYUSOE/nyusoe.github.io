@@ -108,7 +108,7 @@ body{
     color:#979797;
 }
 
-.headerBar #headerItems a { color : white; }
+.headerBar #headerItems li a { color : green; }
 .headerBar #headerItems li a:hover { color : white; }
 .headerBar #headerItems li a.selected { color : white; }
 
