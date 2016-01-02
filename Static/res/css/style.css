@@ -108,9 +108,8 @@ body{
     color:#979797;
 }
 
-.headerBar a { color : #fff );
-.headerBar a:hover { color : #fff );
-.headerBar a.selected { color : #fff );
+.headerBar #navitems a { color : #fff );
+
 .Info-Enclosure{
   height: 30vh;
   width: 100vw;
