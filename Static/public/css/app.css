@@ -3,8 +3,11 @@
 */
 .wrapper {
   width: 96vw;
-  padding: 10vh 2vw;
-  height: 100vh; }
+  padding: 0 2vw;
+  padding-bottom: 5vh;
+  height: 100vh;
+  margin: 0;
+  margin-left: 2vw; }
 
 body {
   font-family: "Open Sans", sans-serif;

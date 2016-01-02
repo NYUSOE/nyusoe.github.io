@@ -1,0 +1,10 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+	width: 70%;
+	margin:auto;
+	vertical-align: center;
+}
+.carousel-inner{
+	max-height: 80vh;
+	height: 80vh;
+}

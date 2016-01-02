@@ -1,7 +1,9 @@
 .wrapper{
-	// width: $wrapper-width;
 	width: $wrapper-width;
-	padding: 10vh 2vw;
+	padding: 0 2vw;
+	padding-bottom: 5vh;
 	height: $wrapper-height;
+	margin:0;
+	margin-left: 2vw; //why. i don't like this.
 }
 

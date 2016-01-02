@@ -1,17 +1,23 @@
-.carousel{
+.carousel-holder{
 	height: $carousel-height;
 	width: $carousel-width;
+	max-height: $carousel-max-height;
 	background-color: $carousel-bg-color;
-	margin: 0 auto;
+	padding-top:0;
+	display:inline-block;
+	float:right;
+	width: 100%;
+	margin-bottom: 7vh;
+	margin-top:1vh;
 }
 .info-wrapper{
-	float:left;
 	// background-color: yellow;
-	height: 400px;
+	float:left;
+	height: 300px;
 	width: 100%;
 	#news{
 		width: 50%;
-		height: 400px;
+		height: 300px;
 		float:left;
 		// background-color: blue;
 		border-right: 1px solid #979797;
@@ -19,7 +25,12 @@
 	#events{
 		float:left;
 		width: 49%;
-		height: 400px;
+		height: 300px;
 		// background-color: pink;
 	}
+	h4{
+		text-align:center;
+		text-decoration:underline;
+	}
+	margin-bottom: 20px;
 }
