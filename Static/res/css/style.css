@@ -108,9 +108,10 @@ body{
     color:#979797;
 }
 
-.headerBar #headerItems #navLink #gallery { color : white; }
+.headerBar #headerItems a { color : white; }
 .headerBar #headerItems #navLink a:hover { color : white; }
 .headerBar #headerItems #navLink a.selected { color : white; }
+
 .Info-Enclosure{
   height: 30vh;
   width: 100vw;
