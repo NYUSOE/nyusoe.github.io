@@ -109,7 +109,8 @@ body{
 }
 
 .headerBar a { color : #fff );
-
+.headerBar a:hover { color : #fff );
+.headerBar a.selected { color : #fff );
 .Info-Enclosure{
   height: 30vh;
   width: 100vw;
