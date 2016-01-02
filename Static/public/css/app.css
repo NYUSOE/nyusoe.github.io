@@ -2,9 +2,8 @@
 * GLOBAL
 */
 .wrapper {
-  width: 100%;
-  max-width: 800px;
-  padding: 0 20px;
+  width: 96vw;
+  padding: 10vh 2vw;
   height: 100vh; }
 
 body {
@@ -48,6 +47,8 @@ footer {
   padding: 0;
   height: 10vh;
   bottom: 0;
+  margin-top: -10vh;
+  clear: both;
   background-color: #57068C;
   line-height: 10vh; }
   footer nav {

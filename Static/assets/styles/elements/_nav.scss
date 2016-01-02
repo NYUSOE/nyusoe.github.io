@@ -28,6 +28,8 @@ footer{
 	padding: 0;
 	height: $nav-height;
 	bottom: 0;
+	margin-top: -$nav-height;
+	clear:both;
 	background-color: $nyu-purple;
 	line-height: $nav-height;
 	nav{

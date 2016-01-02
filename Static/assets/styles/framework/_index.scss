@@ -1,0 +1,25 @@
+.carousel{
+	height: $carousel-height;
+	width: $carousel-width;
+	background-color: $carousel-bg-color;
+	margin: 0 auto;
+}
+.info-wrapper{
+	float:left;
+	// background-color: yellow;
+	height: 400px;
+	width: 100%;
+	#news{
+		width: 50%;
+		height: 400px;
+		float:left;
+		// background-color: blue;
+		border-right: 1px solid #979797;
+	}
+	#events{
+		float:left;
+		width: 49%;
+		height: 400px;
+		// background-color: pink;
+	}
+}

@@ -1,0 +1,46 @@
+/*
+* GLOBAL
+*/
+/*
+* Variables for index page
+*/
+.wrapper {
+  width: 96vw;
+  padding: 10vh 2vw;
+  height: 100vh; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  background-color: #edeff0;
+  color: #222;
+  line-height: 150%;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #000;
+  weight: 600;
+  text-decoration: none; }
+
+.carousel {
+  height: 80vh;
+  width: 100%;
+  background-color: green;
+  margin: 0 auto; }
+
+.info-wrapper {
+  float: left;
+  height: 400px;
+  width: 100%; }
+  .info-wrapper #news {
+    width: 50%;
+    height: 400px;
+    float: left;
+    border-right: 1px solid #979797; }
+  .info-wrapper #events {
+    float: left;
+    width: 49%;
+    height: 400px; }
+
+/*# sourceMappingURL=index.css.map */
