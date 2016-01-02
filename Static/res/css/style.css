@@ -41,7 +41,6 @@ body{
   background-color: #FAFAFA;
 }
 
-body a { color:#fff);
 
 #wrapper{
   /*position:relative;*/
@@ -108,6 +107,8 @@ body a { color:#fff);
 .headerBar #headerItems li:hover{
     color:#979797;
 }
+
+.headerBar a { color : #fff );
 
 .Info-Enclosure{
   height: 30vh;
