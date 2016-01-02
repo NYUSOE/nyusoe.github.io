@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/* CSS Document                  */
+/* Written by Chris Converse     */
+/* for Lynda.com                 */
+
+
+
+ #gallery {
+            border-radius: 1500px;
+            background-color: #57068C;
+            width: 1300px;
+            height: 500px;
+            position: relative;
+            right:75px;
+            
+        }
+.navbar-header {
+            position: relative;
+            top: -14px;
+        }
+        
+        .gallery_thumbnails a img {
+            position: relative;
+            right: 20px;
+        }
+
+#gallery a img { border: none; }
+#gallery a { color: #fff; }
+#gallery a:hover { color: #bbb; }
+
+
+#gallery a.zoom { font-size: .8em; background: url(../images/template/link_zoom.png) no-repeat 0px 0px; padding: 0px 0px 5px 20px; text-transform: uppercase; text-decoration: none }
+
+.clear_both { clear: both; line-height: 1px; }
+
+.gallery_data { padding: 40px; display: none; }
+.gallery_preload_area { display: none; }
+
+.gallery_container { width: 950px; margin: 20px auto 0px auto; }
+
+.gallery_credit { margin: 0px 0px 10px 15px; float: left; width: 425px; }
+.gallery_type { margin: 0px 0px 10px 0px; float: left; width: 950px; text-align: right; padding: 4px 0px 0px 0px; }
+
+.gallery_top {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	
+}
+.gallery_content {
+	margin: 0px;
+	padding: 15px 0px 1px 0px;
+    position: relative;
+    bottom:50px;
+	
+}
+.gallery_bottom {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	
+}
+.gallery_thumbnails { width: 950px; margin-left: 40px; float: left;  }
+.gallery_thumbnails a {
+	display: block;
+	height: 75px;
+	width: 75px;
+	float: left;
+	border: 1px solid #555;
+	margin: 0px 23px 23px 0px;
+}
+.gallery_thumbnails a:hover { border-color: #fff; }
+.gallery_thumbnails a.selected { border-color: #fff; }
+
+.gallery_preview { width: 375px; height: 375px; float: left; }
+.gallery_preview a { display: block; width: 375px; height: 375px; border: 1px solid #555; }
+.gallery_preview a:hover { border-color: #fff; }
+
+
+.gallery_caption { width: 375px; float: left;  }
+
+
+/* Hide for browsers with no JavaScript support */
+
+.gallery_data { display: block }
+.gallery_thumbnails { width: 950px; }
+.gallery_preview { display: none; }
+.gallery_caption { display: none; }
+
+.fancybox-nav {
+    width: 60px;       
+}
+
+.fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.fancybox-nav:hover span {
+    opacity: 1;
+}
+
+.fancybox-next {
+    right: -60px;
+}
+
+.fancybox-prev {
+    left: -60px;
+}
+
+.chevron {
+    width:30%;
+    position:absolute;
+    top:40%;
+}
+.chevron-left {
+    left:5%;
+}
+.chevron-right {
+    right:5%;
+}
+.fancybox {
+  height: 500px;
+  margin-bottom: 60px;
+}
+.fancybox .thebox {
+  height: 500px;
+  background-color: #777;
+}
+
+.fancy > .thebox > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
