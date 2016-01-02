@@ -13,7 +13,7 @@
   margin-left: 2vw;
   padding: 10vh 2vw;
   height: 100vh; 
-  background-color: #57069C
+ 
 }
 
 
@@ -77,12 +77,14 @@ a {
   height: 80vh; }
 
 #gallery {
-            border-radius: 1500px;
+           
             background-color: #57069C;
-            width: 1000px;
-            height: 500px;
+            width: 1920px;
+            height: 940px;
             position: relative;
-            right:75px;
+            right:77px;
+            bottom: 20px;
+           
             
     
         }
