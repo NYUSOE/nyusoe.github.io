@@ -11,7 +11,7 @@
             background-color: #57068C;
             width: 1300px;
             height: 500px;
-            position: absolute;
+            position: fixed;
             right:75px;
             
         }
@@ -21,7 +21,7 @@
         }
         
         .gallery_thumbnails a img {
-            position: relative;
+            position: absolute;
             right: 20px;
         }
 
