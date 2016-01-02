@@ -10,9 +10,7 @@
   padding-bottom: 5vh;
   height: 100vh;
   margin: 0;
-    margin-left: 2vw; }
-head {
-
+  margin-left: 2vw; 
   padding: 10vh 2vw;
   height: 100vh; 
  
@@ -36,6 +34,11 @@ a {
   color: #000;
   weight: 600;
   text-decoration: none; }
+
+#carousel{
+    height:80vh;
+    margin:auto;
+}
 
 .carousel-holder {
   height: 85vh;
