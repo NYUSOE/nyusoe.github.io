@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <title>Student Council | Home </title>
+ <link href="./res/css/style.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="./res/js/owl-carousel/owlCustom.css">
+ <link rel="stylesheet" href="./res/js/owl-carousel/owl.carousel.css">
+ <link rel="stylesheet" href="./res/js/owl-carousel/owl.theme.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"> </script>
+ <script src="./res/js/owl-carousel/owl.carousel.min.js"></script> 
+ <link href="./res/css/gallery.prefixed.css" rel="stylesheet" type="text/css">
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <script src="includes/fancyapps-fancyBox-18d1712/lib/jquery-1.9.0.min.js"></script>
+
+ </head>
+ <body>
+	 <header class = "headerBar">
+	 		<img id="nyu" src="./res/img/POLYLOGO.png"></img>	
+	 		<ul id="headerItems">
+	 			<li id="navLink">Home</li>
+	 			<li id="navLink">Who We Are</li>
+	 			<li id="navLink">Calendar</li>
+	 			<li id="navLink">Student Tools</li>
+	 			<li id="navLink">Gallery</li>
+	 			<li id="navLink">USS</li>
+	 			<li id="navLink">Contact Us</li>
+	 		</ul>
+	 	</header>	
+ 	<div id = "wrapper">
+
+	 <div id="welcomeBar">
+		<span>NYU SOE STUDENT COUNCIL OFFICIAL WEBSITE</span> 
+	 </div>
+	<!-- CAROUSEL -->
+		<div id="owlCity" class="owl-carousel owl-theme">
+			<div class="item"><img alt="First slide" src="./res/img/OldStudentCouncil.jpg" /></div>
+			<div class="item"><img alt="Second slide" src="http://os_extranet_images.s3.amazonaws.com/356163_original.jpg" /></div>
+			<div class="item"><img alt="Third slide" src="http://os_extranet_images.s3.amazonaws.com/356165_original.jpg"></div>
+		</div>
+	<!-- CAROUSEL -->
+	</div> 
+	<div class="Info-Enclosure">
+		<div id="news">
+			<h1>News and Important Information</h1>
+		</div>
+		<div id="todayEvents">
+			<h1>Today's Events</h1>
+		</div>
+	</div>
+ 	<footer class="footerBar">
+		<ul id="footerItems">
+			<li><img class="social" src="./res/img/Github.png"/></li>
+			<li><img class="social" src="./res/img/Instagram.png"/></li>
+			<li><img class="social" src="./res/img/Twitter.png"/></li>
+			<li><img class="social" src="./res/img/Facebook.png"/></li>	
+		</ul>
+ 	</footer>
+	<script>
+	$(document).ready(function(){
+		$(".owl-carousel").owlCarousel({
+			navigation: true,
+			slideSpeed: 300,
+			paginationSpeed: 400,
+			singleItem:true	
+		});
+	});
+
+	</script>
+ </body>
+</html>

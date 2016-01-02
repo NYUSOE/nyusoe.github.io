@@ -1,0 +1,59 @@
+/*
+* GLOBAL
+*/
+.wrapper {
+  width: 100%;
+  max-width: 800px;
+  padding: 0 20px;
+  height: 100vh; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  background-color: #edeff0;
+  color: #222;
+  line-height: 150%;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #000;
+  weight: 600;
+  text-decoration: none; }
+
+header {
+  width: 100vw;
+  padding: 0;
+  height: 10vh;
+  background-color: #57068C;
+  background-image: url("../../res/img/POLYLOGO.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+  header nav {
+    float: right;
+    margin-right: 5px; }
+    header nav .navLink {
+      display: inline;
+      vertical-align: middle;
+      line-height: 10vh;
+      color: white;
+      padding: 0 10px; }
+    header nav .navLink ~ .navLink {
+      border-left: 1px solid #979797; }
+    header nav .navLink:hover {
+      opacity: rgba(255, 255, 255, 0.7); }
+
+footer {
+  width: 100vw;
+  padding: 0;
+  height: 10vh;
+  bottom: 0;
+  background-color: #57068C;
+  line-height: 10vh; }
+  footer nav {
+    float: right; }
+    footer nav .social {
+      height: 44px;
+      vertical-align: middle; }
+
+/*# sourceMappingURL=app.css.map */

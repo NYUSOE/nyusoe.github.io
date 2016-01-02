@@ -1,0 +1,40 @@
+header{
+	width: 100vw;
+	padding:0;
+	height:$nav-height;
+	background-color: $nyu-purple;
+	background-image: url("../../res/img/POLYLOGO.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	nav{
+		float: right;
+		margin-right: 5px;
+		.navLink{
+			display:inline;
+			vertical-align: middle;
+			line-height: $nav-height;
+			color:white;
+			padding: 0 10px;
+		}
+		.navLink ~ .navLink{border-left: 1px solid #979797;}
+		.navLink:hover{
+			opacity: rgba(255,255,255,.7);
+		}
+	}
+}
+
+footer{
+	width: 100vw;
+	padding: 0;
+	height: $nav-height;
+	bottom: 0;
+	background-color: $nyu-purple;
+	line-height: $nav-height;
+	nav{
+		float:right;
+		.social{
+			height: $social-ico-height;
+			vertical-align: middle;
+		}
+	}
+}
