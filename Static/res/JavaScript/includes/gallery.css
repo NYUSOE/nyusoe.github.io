@@ -9,11 +9,11 @@
  #gallery {
             border-radius: 1500px;
             background-color: #57068C;
-            width: 1300px;
+            width: 500px;
             height: 500px;
             position: relative;
             right:75px;
-            
+    
         }
 .navbar-header {
             position: relative;
@@ -69,6 +69,7 @@
 	float: left;
 	border: 1px solid #555;
 	margin: 0px 23px 23px 0px;
+    position: relative;
 }
 .gallery_thumbnails a:hover { border-color: #fff; }
 .gallery_thumbnails a.selected { border-color: #fff; }
