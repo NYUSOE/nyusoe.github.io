@@ -46,6 +46,7 @@ body{
   height:85vh;
   margin:0;
   width: 100vw;
+  background-color: black;
 }
 
 #welcomeBar{
@@ -104,7 +105,8 @@ body{
 }
 
 .headerBar #headerItems li:hover{
-    color:#979797;
+    /*color:#979797;*/
+    color:rgba(255,255,255,.7);
 }
 
 .Info-Enclosure{
