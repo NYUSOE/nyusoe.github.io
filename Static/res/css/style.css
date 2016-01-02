@@ -108,7 +108,7 @@ body{
     color:#979797;
 }
 
-.headerBar #navLink a { color : #fff );
+.headerBar #headerItems #navLink a { color : white; }
 
 .Info-Enclosure{
   height: 30vh;
