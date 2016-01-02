@@ -109,7 +109,8 @@ body{
 }
 
 .headerBar #headerItems #navLink a { color : white; }
-
+.headerBar #headerItems #navLink a:hover { color : white; }
+.headerBar #headerItems #navLink a.selected { color : white; }
 .Info-Enclosure{
   height: 30vh;
   width: 100vw;
