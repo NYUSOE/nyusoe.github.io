@@ -6,18 +6,16 @@
 */
 .wrapper {
   width: 96vw;
-<<<<<<< HEAD
   padding: 0 2vw;
   padding-bottom: 5vh;
   height: 100vh;
   margin: 0;
-  margin-left: 2vw; }
-=======
+  margin-left: 2vw;
   padding: 10vh 2vw;
   height: 100vh; 
   background-color: #57069C
 }
->>>>>>> 656d942d5cd3a488ef6c20918e273cad6284900d
+
 
  
         
