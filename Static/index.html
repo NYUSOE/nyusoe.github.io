@@ -11,6 +11,14 @@
  <link href="./res/css/gallery.prefixed.css" rel="stylesheet" type="text/css">
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script src="includes/fancyapps-fancyBox-18d1712/lib/jquery-1.9.0.min.js"></script>
+ 
+ <link rel="stylesheet" href="./res/JavaScript/includes/fancyapps-fancyBox-18d1712/source/jquery.fancybox.css" type="text/css" media="screen" />
+ <script type="text/javascript" src="./res/JavaScript/gallery.js"></script>
+ <script type="text/javascript" src="./res/JavaScript/includes/includes/gallery.css"></script>
+ <script type="text/javascript" src="./res/JavaScript/includes/includes/fancyapps-fancyBox-18d1712/source/jquery.fancybox.pack.js"></script>
+ <link rel="stylesheet" href="./res/JavaScript/includes/includes/fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+ <script type="text/javascript" src="./res/JavaScript/includes/includes/fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-buttons.js"></script>
+ <script type="text/javascript" src="./res/JavaScript/includes/includes/fancyapps-fancyBox-18d1712/source/helpers/jquery.fancybox-media.js"></script>
 
  </head>
  <body>
@@ -21,7 +29,7 @@
 	 			<li id="navLink">Who We Are</li>
 	 			<li id="navLink">Calendar</li>
 	 			<li id="navLink">Student Tools</li>
-	 			<li id="navLink">Gallery</li>
+	 			<li id="navLink"><a href="#gallery">Gallery</a></li>
 	 			<li id="navLink">USS</li>
 	 			<li id="navLink">Contact Us</li>
 	 		</ul>
@@ -55,7 +63,47 @@
 			<li><img class="social" src="./res/img/Facebook.png"/></li>	
 		</ul>
  	</footer>
+ 	  <div id="gallery">
+                    <div class="gallery_container">
+                        <div class="gallery_credit">
+                            <h1></h1></div>/
+                        <div class="gallery_type">
+                            <h2></h2></div>
+                        <div class="clear_both"></div>
+                        <div class="gallery_top"></div>
+                        <div class="gallery_content">
+                            <div class="gallery_thumbnails">
+                                <a class="overlayLink zoom" rel="gallery" href="./res/img/AMVulcan.jpg" title="TR G30 Vulcan"><img class="rotary" src="./res/img/AMVulcanSmall.jpg" id="pic1" /></a>
+                                <a class="overlayLink zoom" rel="gallery" href="images/gallery/acrobats_fullsize.jpg" title="Caption for acrobats goes here"><img class="rotary" src="images/gallery/acrobats_thumbnail.jpg" id="pic2" /></a>
+                                <a class="overlayLink zoom" rel="gallery" href="http://os_extranet_images.s3.amazonaws.com/363830_original.jpg" title="Caption for Lambo goes here"><img class="rotary" src="http://os_extranet_images.s3.amazonaws.com/363831_original.jpg" id="pic3" /></a>
+                                <a class="overlayLink zoom" rel="gallery" href="http://os_extranet_images.s3.amazonaws.com/363832_original.jpg" title="Caption for ViperSRT goes here"><img src="http://os_extranet_images.s3.amazonaws.com/363833_original.jpg" name="pic4" /></a>
+                                <a class="overlayLink zoom" rel="gallery" href="http://os_extranet_images.s3.amazonaws.com/363834_original.jpg" title="Caption for Stingray goes here"><img src="http://os_extranet_images.s3.amazonaws.com/363835_original.jpg" name="pic5" /></a>
+                                <a class="overlayLink zoom" rel="gallery" href="http://os_extranet_images.s3.amazonaws.com/363834_original.jpg" title="Caption for Stingray goes here"><img src="http://os_extranet_images.s3.amazonaws.com/363835_original.jpg" /></a>
+                                <a class="overlayLink zoom" rel="gallery" href="http://os_extranet_images.s3.amazonaws.com/363834_original.jpg" title="Caption for Stingray goes here"><img src="http://os_extranet_images.s3.amazonaws.com/363835_original.jpg" /></a>
+                                <a class="overlayLink zoom" rel="gallery" href="http://os_extranet_images.s3.amazonaws.com/363834_original.jpg" title="Caption for Stingray goes here"><img src="http://os_extranet_images.s3.amazonaws.com/363835_original.jpg" /></a>
+                                <div class="clear_both"></div>
+
+                            </div>
+                            <!--
+				<div class="gallery_preview">
+					<a href="images/gallery/acrobats_large.jpg"></a>
+				</div>
+-->
+                            <div class="clear_both"></div>
+                            <div class="gallery_contact"></div>
+                            <!--				<div class="gallery_caption"></div>-->
+                            <div class="clear_both"></div>
+                            <div class="gallery_preload_area"></div>
+                        </div>
+                        <div class="gallery_bottom"></div>
+                    </div>
+
+
+
+                </div>
+	
 	<script>
+	
 	$(document).ready(function(){
 		$(".owl-carousel").owlCarousel({
 			navigation: true,

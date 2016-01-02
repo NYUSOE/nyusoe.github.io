@@ -41,6 +41,7 @@ body{
   background-color: #FAFAFA;
 }
 
+
 #wrapper{
   /*position:relative;*/
   height:85vh;
@@ -108,6 +109,10 @@ body{
     /*color:#979797;*/
     color:rgba(255,255,255,.7);
 }
+
+.headerBar #headerItems li a { text-decoration:none; color : white; }
+.headerBar #headerItems li a:hover { color : #979797; }
+.headerBar #headerItems li a.selected { color : #979797; }
 
 .Info-Enclosure{
   height: 30vh;
