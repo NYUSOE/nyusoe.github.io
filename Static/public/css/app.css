@@ -16,8 +16,12 @@ body {
   color: #222;
   line-height: 150%;
   margin: 0;
+<<<<<<< HEAD
   padding: 0;
   width: auto; }
+=======
+  padding: 0; }
+>>>>>>> 6030f6207c5077efc8ad31233ed15deb205c885c
 
 a {
   color: #000;
