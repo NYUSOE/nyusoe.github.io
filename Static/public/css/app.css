@@ -24,7 +24,7 @@ a {
   text-decoration: none; }
 
 header {
-  width: 98.9vw;
+  width: 100vw;
   padding: 0;
   height: 10vh;
   background-color: #57068C;
@@ -33,7 +33,7 @@ header {
   background-size: contain; }
   header nav {
     float: right;
-    margin-right: 5px; }
+    margin-right: 2vh; }
     header nav .navLink {
       display: inline;
       vertical-align: middle;
@@ -46,7 +46,7 @@ header {
       opacity: rgba(255, 255, 255, 0.7); }
 
 footer {
-  width: 98.9vw;
+  width: 100vw;
   padding: 0;
   height: 10vh;
   bottom: 0;
