@@ -5,7 +5,6 @@
   width: 96vw;
   padding: 0 2vw;
   padding-bottom: 5vh;
-  height: 100vh;
   margin: 0; }
 
 body {
@@ -47,14 +46,19 @@ header {
 footer {
   width: 100vw;
   padding: 0;
-  height: 10vh;
   bottom: 0;
   margin-top: -10vh;
   clear: both;
   background-color: #57068C;
-  line-height: 10vh; }
+  line-height: 10vh;
+  position: absolute;
+  display: table;
+  width: 100%; }
   footer nav {
-    float: right; }
+    float: right;
+    padding-top: .5vh;
+    padding-bottom: .5vh;
+    bottom: 0; }
     footer nav .social {
       height: 44px;
       vertical-align: middle; }

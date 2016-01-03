@@ -26,14 +26,21 @@ header{
 footer{
 	width: 100vw;
 	padding: 0;
-	height: $nav-height;
+	// height: $nav-height;
 	bottom: 0;
 	margin-top: -$nav-height;
 	clear:both;
 	background-color: $nyu-purple;
 	line-height: $nav-height;
+	position:absolute; //change this
+	display:table;
+	// height: 100%;
+	width:100%;
 	nav{
 		float:right;
+		padding-top:.5vh;
+		padding-bottom:.5vh;
+		bottom:0;
 		.social{
 			height: $social-ico-height;
 			vertical-align: middle;
