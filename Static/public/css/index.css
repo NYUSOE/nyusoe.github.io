@@ -9,8 +9,7 @@
   padding: 0 2vw;
   padding-bottom: 5vh;
   height: 100vh;
-  margin: 0;
-  margin-left: 2vw; }
+  margin: 0; }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -19,25 +18,12 @@ body {
   color: #222;
   line-height: 150%;
   margin: 0;
-  padding: 0;
-  width: auto; }
+  padding: 0; }
 
 a {
   color: #000;
   weight: 600;
   text-decoration: none; }
-
-.carousel-holder {
-  height: 85vh;
-  width: 100vw;
-  max-height: 80vh;
-  background-color: rgba(192, 192, 192, 0.1);
-  padding-top: 0;
-  display: inline-block;
-  float: right;
-  width: 100%;
-  margin-bottom: 7vh;
-  margin-top: 1vh; }
 
 .info-wrapper {
   float: left;
@@ -57,9 +43,34 @@ a {
     text-align: center;
     text-decoration: underline; }
 
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #fff;
+  min-height: 600px; }
+
+body * {
+  font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 22px; }
+
+#carousel-wrapper {
+  width: 100%;
+  min-width: 900px;
+  height: 500px;
+  margin: -250px 0 0 0;
+  position: absolute;
+  top: 50%;
+  left: 0; }
+
 #carousel div {
   height: 500px;
   float: left; }
+
 #carousel img {
   min-width: 100%;
   min-height: 100%; }
@@ -70,18 +81,21 @@ a {
   margin-top: -10px;
   position: absolute;
   top: 50%; }
-  #title h3 {
-    text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3), 0 -3px 3px rgba(0, 0, 0, 0.3), 3px 0 3px rgba(0, 0, 0, 0.3), -3px 0 3px rgba(0, 0, 0, 0.3);
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 50px;
-    color: #fff;
-    margin: 0; }
-  #title a {
-    color: #fff; }
-  #title a:hover {
-    background: rgba(0, 0, 0, 0.5);
-    padding: 2px 5px; }
+
+#title h3 {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3), 0 -3px 3px rgba(0, 0, 0, 0.3), 3px 0 3px rgba(0, 0, 0, 0.3), -3px 0 3px rgba(0, 0, 0, 0.3);
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #fff;
+  margin: 0; }
+
+#title a {
+  color: #fff; }
+
+#title a:hover {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2px 5px; }
 
 #pager {
   border-radius: 20px;
