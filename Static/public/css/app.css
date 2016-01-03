@@ -24,7 +24,7 @@ a {
   text-decoration: none; }
 
 header {
-  width: 100vw;
+  width: 98.9vw;
   padding: 0;
   height: 10vh;
   background-color: #57068C;
@@ -46,7 +46,7 @@ header {
       opacity: rgba(255, 255, 255, 0.7); }
 
 footer {
-  width: 100vw;
+  width: 98.9vw;
   padding: 0;
   height: 10vh;
   bottom: 0;
