@@ -33,7 +33,7 @@ header {
   background-size: contain; }
   header nav {
     float: right;
-    margin-right: 2vh; }
+    margin-right: 2vw; }
     header nav .navLink {
       display: inline;
       vertical-align: middle;
@@ -55,6 +55,7 @@ footer {
   background-color: #57068C;
   line-height: 10vh; }
   footer nav {
+    margin-right: 2vw;
     float: right; }
     footer nav .social {
       height: 44px;
