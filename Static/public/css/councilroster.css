@@ -16,9 +16,9 @@
  
 }
 
-.wrapper #calendar{
-    background-color: #57069C;
-    width: 1800px;
+.wrapper #meetthecouncil{
+    background-color: white;
+    
   
     
 }
@@ -28,7 +28,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 100%;
-  background-color: #edeff0;
+  background-color: white;
   color: #222;
   line-height: 150%;
   margin: 0;
