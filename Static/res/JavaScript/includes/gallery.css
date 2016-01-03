@@ -6,23 +6,24 @@
 
 
 
- #gallery {
-            border-radius: 1500px;
-            background-color: #57068C;
-            width: 500px;
-            height: 500px;
+#gallery {
+           
+            background-color: #57069C;
+            width: 1920px;
+            height: 940px;
             position: relative;
-            right:75px;
-    
+            right:77px;
+            bottom: 20px;
+           
         }
 .navbar-header {
             position: relative;
             top: -14px;
         }
         
-        .gallery_thumbnails a img {
+    .gallery_thumbnails a img {
             position: relative;
-            right: 20px;
+            right: 10px;
         }
 
 #gallery a img { border: none; }
@@ -61,7 +62,8 @@
 	height: 20px;
 	
 }
-.gallery_thumbnails { width: 950px; margin-left: 40px; float: left;  }
+.gallery_thumbnails { width: 950px; margin-left: 20px; float: left;  }
+/*
 .gallery_thumbnails a {
 	display: block;
 	height: 75px;
@@ -71,6 +73,7 @@
 	margin: 0px 23px 23px 0px;
     position: relative;
 }
+*/
 .gallery_thumbnails a:hover { border-color: #fff; }
 .gallery_thumbnails a.selected { border-color: #fff; }
 
@@ -137,3 +140,76 @@
   min-width: 100%;
   height: 500px;
 }
+.wrapper {
+  width: 96vw;
+  padding: 0 2vw;
+  padding-bottom: 5vh;
+  height: 100vh;
+  margin: 0;
+  margin-left: 2vw; 
+  padding: 10vh 2vw;
+  height: 100vh; 
+ 
+}
+
+
+
+        
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  background-color: #edeff0;
+  color: #222;
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+  width: auto;
+
+}
+
+a {
+  color: #000;
+  weight: 600;
+  text-decoration: none; }
+
+
+
+.carousel-holder {
+  height: 85vh;
+  width: 100vw;
+  max-height: 80vh;
+  background-color: rgba(192, 192, 192, 0.1);
+  padding-top: 0;
+  display: inline-block;
+  float: right;
+  width: 100%;
+  margin-bottom: 7vh;
+  margin-top: 1vh; }
+
+.info-wrapper {
+  float: left;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px; }
+  .info-wrapper #news {
+    width: 50%;
+    height: 300px;
+    float: left;
+    border-right: 1px solid #979797; }
+  .info-wrapper #events {
+    float: left;
+    width: 49%;
+    height: 300px; }
+  .info-wrapper h4 {
+    text-align: center;
+    text-decoration: underline; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+  vertical-align: center; }
+
+.carousel-inner {
+  max-height: 80vh;
+  height: 80vh; }
