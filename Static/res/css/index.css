@@ -1,0 +1,128 @@
+/*
+* GLOBAL
+*/
+/*
+* Variables for index page
+*/
+.wrapper {
+  width: 96vw;
+  padding: 0 2vw;
+  padding-bottom: 5vh;
+  margin: 0; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  background-color: #edeff0;
+  color: #222;
+  line-height: 150%;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #000;
+  weight: 600;
+  text-decoration: none; }
+
+.info-wrapper {
+  float: left;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px; }
+  .info-wrapper #news {
+    width: 50%;
+    height: 300px;
+    float: left;
+    border-right: 1px solid #979797; }
+  .info-wrapper #events {
+    float: left;
+    width: 49%;
+    height: 300px; }
+  .info-wrapper h4 {
+    text-align: center;
+    text-decoration: underline; }
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #fff;
+  min-height: 600px; }
+
+body * {
+  font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 22px; }
+
+#wrapper {
+  width: 100%;
+  min-width: 900px;
+  height: 500px;
+  margin: -250px 0 0 0;
+  position: absolute;
+  top: 50%;
+  left: 0; }
+
+#carousel div {
+  height: 500px;
+  float: left; }
+
+#carousel img {
+  min-width: 100%;
+  min-height: 100%; }
+
+#title {
+  text-align: center;
+  width: 100%;
+  margin-top: -10px;
+  position: absolute;
+  top: 50%; }
+
+#title h3 {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3), 0 -3px 3px rgba(0, 0, 0, 0.3), 3px 0 3px rgba(0, 0, 0, 0.3), -3px 0 3px rgba(0, 0, 0, 0.3);
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #fff;
+  margin: 0; }
+
+#title a {
+  color: #fff; }
+
+#title a:hover {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2px 5px; }
+
+#pager {
+  border-radius: 20px;
+  background: #fff;
+  text-align: center;
+  width: 120px;
+  height: 50px;
+  padding-top: 2px;
+  margin: 235px 0 0 -60px;
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+
+#pager a.selected span {
+  background: #666; }
+
+#pager a {
+  display: inline-block;
+  padding: 5px; }
+
+#pager span {
+  border-radius: 10px;
+  background: #ccc;
+  text-indent: -100px;
+  line-height: 0;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  overflow: hidden; }
+
+/*# sourceMappingURL=index.css.map */
