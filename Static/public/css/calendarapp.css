@@ -51,7 +51,7 @@ footer {
   clear: both;
   background-color: #57068C;
   line-height: 4vh;
-  position: fixed;
+  position: relative;
   display: table;
   width: 100%; }
   footer nav {

@@ -4,65 +4,15 @@
 /*
 * Variables for index page
 */
-.wrapper {
+/*.wrapper {
   width: 96vw;
   padding: 0 2vw;
   padding-bottom: 5vh;
-  margin: 0; }
+  margin: 0; }*/
 
 .wrapper #meetthecouncil{
     background-color: white;
-    
-  
-    
 }
-
-
-        
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 100%;
-  background-color: #edeff0;
-  color: #222;
-  line-height: 150%;
-  margin: 0;
-  padding: 0; }
-
-a {
-  color: #000;
-  weight: 600;
-  text-decoration: none; }
-
-
-
-.info-wrapper {
-  float: left;
-  height: 300px;
-  width: 100%;
-  margin-bottom: 20px; }
-  .info-wrapper #news {
-    width: 50%;
-    height: 300px;
-    float: left;
-    border-right: 1px solid #979797; }
-  .info-wrapper #events {
-    float: left;
-    width: 49%;
-    height: 300px; }
-  .info-wrapper h4 {
-    text-align: center;
-    text-decoration: underline; }
-
-
-html, body {
-  height: 100%;
-  padding: 0;
-  position: absolute;
-  margin: 0; }
-
-body {
-  background: #fff;
-  min-height: 600px; }
 
 body * {
   font-family: Arial, Geneva, SunSans-Regular, sans-serif;
@@ -70,115 +20,6 @@ body * {
   color: #666;
   line-height: 22px; }
 
-#wrapper {
-  width: 100%;
-  min-width: 900px;
-  height: 500px;
-  margin: -250px 0 0 0;
-  position: absolute;
-  top: 50%;
-  left: 0; }
 
-#carousel div {
-  height: 500px;
-  float: left; }
-
-#carousel img {
-  min-width: 100%;
-  min-height: 100%; }
-
-#title {
-  text-align: center;
-  width: 100%;
-  margin-top: -10px;
-  position: absolute;
-  top: 50%; }
-
-#title h3 {
-  text-shadow: 0 3px 3px rgba(0, 0, 0, 0.3), 0 -3px 3px rgba(0, 0, 0, 0.3), 3px 0 3px rgba(0, 0, 0, 0.3), -3px 0 3px rgba(0, 0, 0, 0.3);
-  font-size: 50px;
-  font-weight: bold;
-  line-height: 50px;
-  color: #fff;
-  margin: 0; }
-
-#title a {
-  color: #fff; }
-
-#title a:hover {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 2px 5px; }
-
-#pager {
-  border-radius: 20px;
-  background: #fff;
-  text-align: center;
-  width: 120px;
-  height: 50px;
-  padding-top: 2px;
-  margin: 235px 0 0 -60px;
-  position: absolute;
-  top: 50%;
-  left: 50%; }
-
-#pager a.selected span {
-  background: #666; }
-
-#pager a {
-  display: inline-block;
-  padding: 5px; }
-
-#pager span {
-  border-radius: 10px;
-  background: #ccc;
-  text-indent: -100px;
-  line-height: 0;
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  overflow: hidden; }
-
-
-header {
-  width: 100vw;
-  padding: 0;
-  height: 10vh;
-  background-color: #57068C;
-  background-image: url("../../res/img/POLYLOGO.png");
-  background-repeat: no-repeat;
-  background-size: contain; }
-  header nav {
-    float: right;
-    margin-right: 5px; }
-    header nav .navLink {
-      display: inline;
-      vertical-align: middle;
-      line-height: 10vh;
-      color: white;
-      padding: 0 10px; }
-    header nav .navLink ~ .navLink {
-      border-left: 1px solid #979797; }
-    header nav .navLink:hover {
-      opacity: rgba(255, 255, 255, 0.7); }
-
-footer {
-  width: 100vw;
-  padding: 0;
-  bottom: 0;
-  margin-top: -10vh;
-  clear: both;
-  background-color: #57068C;
-  line-height: 10vh;
-  position: absolute;
-  display: table;
-  width: 100%; }
-  footer nav {
-    float: right;
-    padding-top: .5vh;
-    padding-bottom: .5vh;
-    bottom: 0; }
-    footer nav .social {
-      height: 44px;
-      vertical-align: middle; }
 
 /*# sourceMappingURL=index.css.map */

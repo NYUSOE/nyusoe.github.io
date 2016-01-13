@@ -47,11 +47,11 @@ footer {
   width: 100vw;
   padding: 0;
   bottom: 0;
-  margin-top: -10vh;
   clear: both;
   background-color: #57068C;
-  line-height: 10vh;
+  line-height: 4vh;
   display: table;
+  /*position:absolute;*/
   width: 100%; }
   footer nav {
     float: right;

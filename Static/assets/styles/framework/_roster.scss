@@ -1,0 +1,41 @@
+
+#council{
+	text-align:center;
+	background-color:white;
+	height: 100%;
+
+	*{
+	font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+	font-size: 14px;
+	color: #666;
+	line-height: 22px;
+	}
+	.council-member{
+		align:center;
+		.well{
+			display:none;
+		}
+		.exec-board{
+			height: 175px;
+			width: 175px;
+		}
+		.comissioner{
+			height: 110px;
+			width: 110px;
+		}
+	}
+	.rest{
+		// display:inline-table;
+		overflow:hidden;
+		#branch{
+			// display:column-group;
+			float:left;
+			width:300px;
+		}
+	}
+	margin-bottom: 20px;
+}
+.wrapper{
+	height: 200vh;
+}
+

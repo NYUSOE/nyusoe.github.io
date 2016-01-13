@@ -1,0 +1,30 @@
+#council {
+  text-align: center;
+  background-color: white;
+  height: 100%;
+  margin-bottom: 20px; }
+  #council * {
+    font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+    font-size: 14px;
+    color: #666;
+    line-height: 22px; }
+  #council .council-member {
+    align: center; }
+    #council .council-member .well {
+      display: none; }
+    #council .council-member .exec-board {
+      height: 175px;
+      width: 175px; }
+    #council .council-member .comissioner {
+      height: 110px;
+      width: 110px; }
+  #council .rest {
+    overflow: hidden; }
+    #council .rest #branch {
+      float: left;
+      width: 300px; }
+
+.wrapper {
+  height: 200vh; }
+
+/*# sourceMappingURL=roster.css.map */
