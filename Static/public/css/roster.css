@@ -22,10 +22,16 @@
         display: none; }
       .wrapper #council .council-member .exec-board {
         height: 175px;
-        width: 175px; }
+        width: 175px;
+        border-radius: 87.5px;
+        -webkit-border-radius: 87.5px;
+        -moz-border-radius: 87.5px; }
       .wrapper #council .council-member .comissioner {
-        height: 110px;
-        width: 110px; }
+        height: 175px;
+        width: 175px;
+        border-radius: 87.5px;
+        -webkit-border-radius: 87.5px;
+        -moz-border-radius: 87.5px; }
     .wrapper #council .rest {
       overflow: hidden;
       display: -webkit-box;
