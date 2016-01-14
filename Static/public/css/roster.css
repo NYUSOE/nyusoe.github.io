@@ -35,7 +35,7 @@
         float: left;
         width: 300px; }
       .wrapper #council .rest #branch0 {
-        flex-grow: 2; }
+        flex-grow: 1; }
       .wrapper #council .rest #branch1 {
         flex-grow: 1; }
       .wrapper #council .rest #branch2 {
@@ -43,6 +43,7 @@
       .wrapper #council .rest #branch3 {
         flex-grow: 1; }
     .wrapper #council .well {
+      max-width: 200px;
       border-radius: 10px 10px 10px 10px;
       -moz-border-radius: 10px 10px 10px 10px;
       -webkit-border-radius: 10px 10px 10px 10px;
