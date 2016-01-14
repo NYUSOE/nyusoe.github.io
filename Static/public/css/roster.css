@@ -23,10 +23,25 @@
         height: 110px;
         width: 110px; }
     .wrapper #council .rest {
-      overflow: hidden; }
+      overflow: hidden;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      flex-wrap: none; }
       .wrapper #council .rest #branch {
         float: left;
         width: 300px; }
+      .wrapper #council .rest #branch0 {
+        flex-grow: 2; }
+      .wrapper #council .rest #branch1 {
+        flex-grow: 1; }
+      .wrapper #council .rest #branch2 {
+        flex-grow: 1; }
+      .wrapper #council .rest #branch3 {
+        flex-grow: 1; }
     .wrapper #council .well {
       border-radius: 10px 10px 10px 10px;
       -moz-border-radius: 10px 10px 10px 10px;

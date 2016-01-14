@@ -30,9 +30,29 @@
 		}
 		.rest{
 			overflow:hidden;
+			display: -webkit-box;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			// align-items: center;
+			justify-content: center;
+			flex-wrap: none;
 			#branch{
 				float:left;
 				width:300px;
+			}
+			#branch0{
+				flex-grow: 2;
+			}
+			#branch1{
+				flex-grow: 1;
+			}
+			#branch2{
+				flex-grow: 1;
+			}
+			#branch3{
+				flex-grow: 1;
 			}
 		}
 		margin-bottom: 20px;
@@ -49,4 +69,3 @@
 		}
 	}
 }
-
