@@ -1,25 +1,22 @@
 .wrapper {
   height: 200vh; }
+  .wrapper #section-title {
+    font-size: 64px; }
   .wrapper #joseIsSpecial {
     display: inline-block; }
   .wrapper #council {
+    padding: 25px;
     text-align: center;
     background-color: white;
     height: 100%;
     margin-bottom: 20px; }
     .wrapper #council * {
       font-family: Arial, Geneva, SunSans-Regular, sans-serif;
-      font-size: 14px;
       color: #666;
       line-height: 22px; }
-      .wrapper #council * p {
-        color: black;
-        text-align: center; }
     .wrapper #council .council-member {
       width: 200px;
       align: center; }
-      .wrapper #council .council-member .well {
-        display: none; }
       .wrapper #council .council-member .exec-board {
         height: 175px;
         width: 175px;
@@ -40,16 +37,19 @@
       display: -webkit-flex;
       display: flex;
       justify-content: center;
-      flex-wrap: none; }
+      flex-wrap: none;
+      -webkit-flex-direction: row;
+      /* Safari */
+      flex-direction: row;
+      -webkit-justify-content: space-between;
+      /* Safari */
+      justify-content: space-between; }
       .wrapper #council .rest #branch {
-        background-color: blue;
         overflow: hidden;
-        flex: 0 1 50px;
-        float: left;
         width: 300px;
-        margin: 25px;
         height: 50px;
-        text-align: center; }
+        text-align: center;
+        justify-content: space-around; }
       .wrapper #council .rest #branch0 {
         flex-grow: 1; }
       .wrapper #council .rest #branch1 {
@@ -67,6 +67,10 @@
       background-color: lightgray;
       -webkit-box-shadow: 0px 12px 7px -2px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 0px 12px 7px -2px rgba(0, 0, 0, 0.75);
-      box-shadow: 0px 12px 7px -2px rgba(0, 0, 0, 0.75); }
+      box-shadow: 0px 12px 7px -2px rgba(0, 0, 0, 0.75);
+      display: none;
+      color: black;
+      text-align: center;
+      font-size: 14px; }
 
 /*# sourceMappingURL=roster.css.map */

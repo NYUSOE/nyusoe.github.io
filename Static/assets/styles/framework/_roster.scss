@@ -1,29 +1,25 @@
 
 .wrapper{
+	#section-title{
+		font-size: 64px;
+	}
 	#joseIsSpecial{
 		display:inline-block;
 	}
 	height: 200vh;
 	#council{
+		padding: 25px;
 		text-align:center;
 		background-color:white;
 		height: 100%;
 		*{
 		font-family: Arial, Geneva, SunSans-Regular, sans-serif;
-		font-size: 14px;
 		color: #666;
-		p{
-			color:black;
-			text-align: center;
-		}
 		line-height: 22px;
 		}
 		.council-member{
 			width: 200px;
 			align:center;
-			.well{
-				display:none;
-			}
 			.exec-board{
 				height: 175px;
 				width: 175px;
@@ -54,15 +50,19 @@
 			display: flex;
 			justify-content: center;
 			flex-wrap: none;
+			-webkit-flex-direction: row; /* Safari */
+			flex-direction: row;
+			-webkit-justify-content: space-between; /* Safari */
+			justify-content:         space-between;
 			#branch{
-				background-color: blue;
 				overflow: hidden;
-				flex: 0 1 50px;
-				float:left;
 				width:300px;
-				margin: 25px;
 				height: 50px;
 				text-align: center;
+				// padding-left:10vh;
+				// padding-right: 10vh;
+				justify-content: space-around;
+				// justify-content: flex-start;
 			}
 			#branch0{
 				flex-grow: 1;
@@ -88,6 +88,10 @@
 			-webkit-box-shadow: 0px 12px 7px -2px rgba(0,0,0,0.75);
 			-moz-box-shadow: 0px 12px 7px -2px rgba(0,0,0,0.75);
 			box-shadow: 0px 12px 7px -2px rgba(0,0,0,0.75);
+			display:none;
+			color:black;
+			text-align: center;
+			font-size: 14px;
 		}
 	}
 }
