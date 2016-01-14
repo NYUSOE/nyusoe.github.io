@@ -1,5 +1,8 @@
 
 .wrapper{
+	#joseIsSpecial{
+		display:inline-block;
+	}
 	height: 200vh;
 	#council{
 		text-align:center;
@@ -11,10 +14,12 @@
 		color: #666;
 		p{
 			color:black;
+			text-align: center;
 		}
 		line-height: 22px;
 		}
 		.council-member{
+			width: 200px;
 			align:center;
 			.well{
 				display:none;
@@ -35,12 +40,17 @@
 			display: -ms-flexbox;
 			display: -webkit-flex;
 			display: flex;
-			// align-items: center;
 			justify-content: center;
 			flex-wrap: none;
 			#branch{
+				background-color: blue;
+				overflow: hidden;
+				flex: 0 1 50px;
 				float:left;
 				width:300px;
+				margin: 25px;
+				height: 50px;
+				text-align: center;
 			}
 			#branch0{
 				flex-grow: 1;
