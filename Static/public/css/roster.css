@@ -1,5 +1,5 @@
 .wrapper {
-  height: 200vh; }
+  height: 300vh; }
   .wrapper #section-title {
     font-size: 64px; }
   .wrapper #joseIsSpecial {
@@ -9,7 +9,7 @@
     text-align: center;
     background-color: white;
     height: 100%;
-    margin-bottom: 20px; }
+    margin-bottom: 50px; }
     .wrapper #council * {
       font-family: Arial, Geneva, SunSans-Regular, sans-serif;
       color: #666;
