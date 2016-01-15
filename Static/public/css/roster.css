@@ -1,11 +1,11 @@
 .wrapper {
-  height: 300vh; }
+  height: 2080px; }
   .wrapper #section-title {
     font-size: 64px; }
   .wrapper #joseIsSpecial {
     display: inline-block; }
   .wrapper #council {
-    padding: 25px;
+    padding-top: 25px;
     text-align: center;
     background-color: white;
     height: 100%;
