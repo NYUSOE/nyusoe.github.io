@@ -20,12 +20,14 @@
 	<link href="css/index.css" rel="stylesheet">
 	<link href="css/app.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="../res/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="../res/owl-carousel/owl.theme.css">
-	<link rel="stylesheet" href="../res/owl-carousel/owl.transitions.css">
+	<!-- <link rel="stylesheet" href="../res/owl-carousel/owl.carousel.css"> -->
+	<!-- <link rel="stylesheet" href="../res/owl-carousel/owl.theme.css"> -->
+	<!-- <link rel="stylesheet" href="../res/owl-carousel/owl.transitions.css"> -->
+	<link rel="stylesheet" href="../res/owl/assets/owl.carousel.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="../res/owl-carousel/owl.carousel.min.js"></script>
+	<!-- // <script src="../res/owl-carousel/owl.carousel.min.js"></script> -->
+	<script src="../res/owl/owl.carousel.min.js"></script>
 	</head>
 	<body>
 		<header>
@@ -70,27 +72,16 @@
 	</body>
 	<script>
 		$(document).ready(function() {
- 
-  			$("#slider").owlCarousel({
- 
-    			 navigation : true, // Show next and prev buttons
-      			 slideSpeed : 300,
-      			 paginationSpeed : 400,
-     			 singleItem:true,
-     			 autoPlay: true,
-     			 autoplayTimeout: 100,
-     			 autoplaySpeed: 100,
-     			 autoPlayHoverPause: true
-
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
- 			 });
- 
+			var owl = $('.owl-carousel');
+			owl.owlCarousel({
+			    items:1,
+			    loop:true,
+			    margin:10,
+			    autoplay:true,
+			    autoplayTimeout:1000,
+			    autoplayHoverPause:true
+			});
+		 
 		});
 
 
