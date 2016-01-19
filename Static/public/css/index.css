@@ -24,6 +24,10 @@ a {
   weight: 600;
   text-decoration: none; }
 
+.owl-carousel img {
+  height: 100%;
+  width: 100vw; }
+
 .info-wrapper {
   float: left;
   height: 300px;
@@ -38,13 +42,14 @@ a {
     float: left;
     width: 49%;
     height: 300px; }
+    .info-wrapper #events p {
+      margin-left: 20px; }
   .info-wrapper h4 {
     text-align: center;
     text-decoration: underline; }
 
 #slider .item img {
   display: block;
-  width: 45%; }
-
+  width: 100%; }
 
 /*# sourceMappingURL=index.css.map */
