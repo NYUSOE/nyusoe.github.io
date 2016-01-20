@@ -40,13 +40,13 @@
 				<a class="navLink" href="contact.html">Contact Us</a>
 			</nav>
 		</header>
-		<div id="slider" class="owl-carousel" align="center">
+		<div id="slider" class="owl-carousel owl-theme" align="center">
  
 		  <div class="item"><img src="../res/img/Banner.png" alt="Banner"></div>
 		  <div class="item"><img src="../res/img/OldCouncil.png" alt="Old Council"></div>
 		  <div class="item"><img src="../res/img/STEM_header.jpg" alt="summer program"></div>
-		  <div class="item" id="owl-video">
-		  <iframe margin-top="30vh" width="560" height="315" src="https://www.youtube.com/embed/fhpToky5SvQ" frameborder="0" allowfullscreen></iframe>
+		  <div class="item" id="video">
+		  <iframe margin-top="30vh"width="560" height="315" src="https://www.youtube.com/embed/fhpToky5SvQ" frameborder="0" allowfullscreen></iframe>
 	   	  </div> 
 		</div>
 		<div class="wrapper">
@@ -82,8 +82,8 @@
 			    autoplayHoverPause:true,
                 video: true
 			});
-            $('#owl-video iframe').on('click',function(){
-    owl.trigger('stop.owl.autoplay');
+            $('#video').on('click',function(){
+    owl.trigger('autoplay.stop.owl')
 })
 		 
 		});
