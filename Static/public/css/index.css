@@ -52,4 +52,8 @@ a {
   display: block;
   width: 100%; }
 
+.fancybox-nav {
+  display:none;
+}
+
 /*# sourceMappingURL=index.css.map */
